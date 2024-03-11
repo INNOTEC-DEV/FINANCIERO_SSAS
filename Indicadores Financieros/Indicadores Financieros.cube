@@ -1,0 +1,1828 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="273620c4-118b-4ea6-894e-c0dfb17a6d02" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Indicadores Financieros</ID>
+  <Name>Indicadores Financieros</Name>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="54" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1485" scrolltop="-6856" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="77" x="25876" y="13123" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TD_CADENA" left="15642" top="5182" logicalid="27" controlid="1" masterid="0" hint1="0" hint2="0" width="3149" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004d0c0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TD_CADENA" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TD_KPI" left="4376" top="13795" logicalid="28" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TD_KPI" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TD_ESCENARIO" left="-358" top="6404" logicalid="29" controlid="3" masterid="0" hint1="0" hint2="0" width="3625" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000290e0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TD_ESCENARIO" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TD_TIENDA" left="6595" top="-1856" logicalid="30" controlid="4" masterid="0" hint1="0" hint2="0" width="5821" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000bd1600009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TD_TIENDA" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TD_FECHA" left="15642" top="9884" logicalid="31" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TD_FECHA" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TD_COMPANIA" left="9776" top="13795" logicalid="32" controlid="6" masterid="0" hint1="0" hint2="0" width="3466" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008a0d0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TD_COMPANIA" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TH_FINANCIERA" left="7832" top="5226" logicalid="33" controlid="7" masterid="0" hint1="0" hint2="0" width="7197" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00001d1c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TH_FINANCIERA" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="14729" top="5226" logicalid="34" controlid="8" masterid="0" hint1="0" hint2="0" width="1213" height="957" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TH_FINANCIERA-TD_CADENA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="7" sourceattachpoint="10" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="15642" y="5783" />
+              <point x="15242" y="5783" />
+              <point x="15242" y="5654" />
+              <point x="15429" y="5654" />
+              <point x="15429" y="5526" />
+              <point x="15029" y="5526" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5477" top="9926" logicalid="35" controlid="9" masterid="0" hint1="0" hint2="0" width="5153" height="4369" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TH_FINANCIERA-TD_KPI]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="7" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5876" y="13795" />
+              <point x="5876" y="12595" />
+              <point x="10330" y="12595" />
+              <point x="10330" y="10226" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2967" top="5776" logicalid="36" controlid="10" masterid="0" hint1="0" hint2="0" width="5165" height="1629" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TH_FINANCIERA-TD_ESCENARIO]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="7" sourceattachpoint="15" destattachpoint="28" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3267" y="7005" />
+              <point x="4656" y="7005" />
+              <point x="4656" y="6076" />
+              <point x="7832" y="6076" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8380" top="1640" logicalid="37" controlid="11" masterid="0" hint1="0" hint2="0" width="2075" height="3886" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TH_FINANCIERA-TD_TIENDA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="7" sourceattachpoint="13" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10055" y="2139" />
+              <point x="10055" y="4421" />
+              <point x="8680" y="4421" />
+              <point x="8680" y="5226" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="13880" top="9926" logicalid="38" controlid="12" masterid="0" hint1="0" hint2="0" width="2062" height="1720" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TH_FINANCIERA-TD_FECHA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="7" sourceattachpoint="14" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="15642" y="11246" />
+              <point x="14180" y="11246" />
+              <point x="14180" y="10226" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="11110" top="9926" logicalid="39" controlid="13" masterid="0" hint1="0" hint2="0" width="1170" height="4369" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TH_FINANCIERA-TD_COMPANIA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="7" sourceattachpoint="4" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11509" y="13795" />
+              <point x="11509" y="12595" />
+              <point x="11980" y="12595" />
+              <point x="11980" y="10226" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TD_PLAZO" left="16824" top="7676" logicalid="40" controlid="14" masterid="0" hint1="0" hint2="0" width="3000" height="1622" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000056060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TD_PLAZO" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="14729" top="7976" logicalid="41" controlid="15" masterid="0" hint1="0" hint2="0" width="2395" height="911" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TH_FINANCIERA-TD_PLAZO]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="14" destid="7" sourceattachpoint="12" destattachpoint="37" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="16824" y="8487" />
+              <point x="15429" y="8487" />
+              <point x="15429" y="8276" />
+              <point x="15029" y="8276" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TD_TASA" left="15368" top="-80" logicalid="42" controlid="16" masterid="0" hint1="0" hint2="0" width="3058" height="1890" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000f20b000062070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TD_TASA" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7830" top="466" logicalid="43" controlid="17" masterid="0" hint1="0" hint2="0" width="7838" height="5060" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TH_FINANCIERA-TD_TASA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="16" destid="7" sourceattachpoint="12" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="15368" y="865" />
+              <point x="8130" y="865" />
+              <point x="8130" y="5226" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TH_FINANCIERA_AA" left="-1890" top="1203" logicalid="44" controlid="18" masterid="0" hint1="0" hint2="0" width="8144" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d01f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_TH_FINANCIERA_AA" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5954" top="5053" logicalid="45" controlid="19" masterid="0" hint1="0" hint2="0" width="9988" height="6043" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_dbo_TD_FECHA_dbo_TH_FINANCIERA_AA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="18" sourceattachpoint="12" destattachpoint="45" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="15642" y="10696" />
+              <point x="10948" y="10696" />
+              <point x="10948" y="5353" />
+              <point x="6254" y="5353" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4082" top="5903" logicalid="46" controlid="20" masterid="0" hint1="0" hint2="0" width="1094" height="8392" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_dbo_TD_KPI_dbo_TH_FINANCIERA_AA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="18" sourceattachpoint="0" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4776" y="13795" />
+              <point x="4776" y="9999" />
+              <point x="4382" y="9999" />
+              <point x="4382" y="6203" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5954" top="4503" logicalid="47" controlid="21" masterid="0" hint1="0" hint2="0" width="9988" height="1680" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_dbo_TD_CADENA_dbo_TH_FINANCIERA_AA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="18" sourceattachpoint="10" destattachpoint="43" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="15642" y="5783" />
+              <point x="10948" y="5783" />
+              <point x="10948" y="4803" />
+              <point x="6254" y="4803" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4355" top="842" logicalid="48" controlid="22" masterid="0" hint1="0" hint2="0" width="2540" height="1511" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_dbo_TD_TIENDA_dbo_TH_FINANCIERA_AA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="18" sourceattachpoint="32" destattachpoint="33" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6595" y="1241" />
+              <point x="4655" y="1241" />
+              <point x="4655" y="2053" />
+              <point x="6254" y="2053" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-595" top="5304" logicalid="49" controlid="23" masterid="0" hint1="0" hint2="0" width="1277" height="1600" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_dbo_TD_ESCENARIO_dbo_TH_FINANCIERA_AA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="18" sourceattachpoint="0" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-196" y="6404" />
+              <point x="-196" y="6004" />
+              <point x="382" y="6004" />
+              <point x="382" y="5604" />
+              <point x="-18" y="5604" />
+              <point x="-18" y="6203" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5954" top="5053" logicalid="50" controlid="24" masterid="0" hint1="0" hint2="0" width="11170" height="4384" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TH_FINANCIERA_AA-TD_PLAZO]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="14" destid="18" sourceattachpoint="14" destattachpoint="45" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="16824" y="9037" />
+              <point x="11539" y="9037" />
+              <point x="11539" y="5353" />
+              <point x="6254" y="5353" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5954" top="-84" logicalid="51" controlid="25" masterid="0" hint1="0" hint2="0" width="9714" height="1887" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TH_FINANCIERA_AA-TD_TASA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="16" destid="18" sourceattachpoint="10" destattachpoint="31" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="15368" y="315" />
+              <point x="10811" y="315" />
+              <point x="10811" y="1503" />
+              <point x="6254" y="1503" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5732" top="5903" logicalid="52" controlid="26" masterid="0" hint1="0" hint2="0" width="5627" height="8392" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[TH_FINANCIERA_AA-TD_COMPANIA]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="18" sourceattachpoint="2" destattachpoint="29" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10959" y="13795" />
+              <point x="10959" y="9999" />
+              <point x="6032" y="9999" />
+              <point x="6032" y="6203" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1485</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6856</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1890</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-1856</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>77</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="f7a82c54-2296-4229-bd74-0979512dbc95">
+      <ID>Tienda</ID>
+      <Name>Tienda</Name>
+      <DimensionID>Tienda</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="89a488de-be67-4cf2-9010-3f3232f39559">
+          <AttributeID>ID TIENDA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d0444476-3380-49ec-8a9b-59f89773a4ee">
+          <AttributeID>DES TIENDA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="57197ad5-b192-466f-b58c-4c43dad1a859">
+          <AttributeID>DES ZONA COMERCIAL</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="68219911-90fc-4730-a304-7b33a67e8588">
+          <AttributeID>DES REGION SOCIOECONOMICA</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="a646957b-de2f-41d3-ae15-66ddff45e4e9">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="1debe039-9f80-4006-b121-0aeac08e48c2">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="8d949657-fb87-4469-800a-a13e41c3403b">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="11ba9a6e-c0e7-413d-8f14-bef5eb0f2da7">
+      <ID>Compañía</ID>
+      <Name>Compañía</Name>
+      <DimensionID>Compañía</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ee0205f2-3c19-450b-99d2-9f75238989ab">
+          <AttributeID>ID COMPANIA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cadc8263-dfb2-4fac-9d7b-bf5442e013b6">
+          <AttributeID>DES COMPANIA</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="05b99bae-1c4a-4d5d-beb8-1fdb339b39c6">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="637b0cab-87de-4f57-b15d-88c1b710f2ac">
+      <ID>Cadena</ID>
+      <Name>Cadena</Name>
+      <DimensionID>Cadena</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="68d0dac5-77f3-4181-8936-77e4280b7879">
+          <AttributeID>ID CADENA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="44da8023-c0f1-47dc-8301-6358ebf20d94">
+          <AttributeID>DES CADENA</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="4f058ba4-4750-4e67-a7cf-a926db1f7a56">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="cc5a363c-261c-477e-9d92-cf5bd06b2ff9">
+      <ID>KPI</ID>
+      <Name>KPI</Name>
+      <DimensionID>KPI</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="67a9c7fc-5321-4aa0-a010-bcd2040a8e45">
+          <AttributeID>ID KPI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fecd5766-3a55-4e1e-b806-e26d36e8fdc3">
+          <AttributeID>DES KPI</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bee3d091-9cf5-416f-a1e8-f2c089b3722c">
+          <AttributeID>COD TIPO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="af2c2eda-f481-463b-bd1b-204de48763cb">
+          <AttributeID>COD KPI</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="7f9ed92b-4e67-4320-be64-50b7d707e0ff">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="a626928b-461c-4f51-b67b-b0c792d305f2">
+      <ID>Fecha</ID>
+      <Name>Fecha</Name>
+      <DimensionID>Fecha</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f1e6daa2-199a-46b6-a8b3-acd0d29c0eac">
+          <AttributeID>ID FECHA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b92634b1-9067-4be5-a176-d2f1e7981075">
+          <AttributeID>DES ANIO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b084562a-9604-4cf5-ac2c-34b9325b33fe">
+          <AttributeID>DES MES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="43152559-0849-40c0-9451-b6ab9135125c">
+          <AttributeID>DES DIA</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="5d719427-11c5-4e9d-88c3-9f91de2464bc">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="ffc16566-d062-42fe-968a-77bbbb34928b">
+      <ID>Plazo</ID>
+      <Name>Plazo</Name>
+      <DimensionID>Plazo</DimensionID>
+      <Visible>false</Visible>
+      <Attributes>
+        <Attribute dwd:design-time-name="b6db50ec-9208-48f3-9c35-ccb7eee75b15">
+          <AttributeID>ID PLAZO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d6a145e4-70d6-4f41-aa7b-03894da412ea">
+          <AttributeID>DES PLAZO</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="32315ce6-380c-4094-86bb-b984ba6efb92">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="ac45bddd-11b8-4ae4-be00-e163e7dae2dd">
+      <ID>Tasa</ID>
+      <Name>Tasa</Name>
+      <DimensionID>Tasa</DimensionID>
+      <Visible>false</Visible>
+      <Attributes>
+        <Attribute dwd:design-time-name="f9b7154f-12fe-4a60-b0da-cc3ba489c255">
+          <AttributeID>ID TASA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9f8f7389-b3a5-461d-ae0c-053bb3a0aa33">
+          <AttributeID>COD TASA</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="0a0c512e-7f64-41a3-9605-8fdf1899c312">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="04d48099-40ff-4b36-bb65-09662e0fbab6">
+      <ID>TH FINANCIERA</ID>
+      <Name>Medidas</Name>
+      <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="22c68e48-1019-458e-9c8a-86714dd83d85">
+          <ID>NUMERADOR VALOR COLONES</ID>
+          <Name>NUMERADOR VALOR COLONES</Name>
+          <Source dwd:design-time-name="53a9c5b3-7896-412b-a810-e7580dc95662">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3ea47e46-7260-4941-8d1a-a1430ca10452">
+              <TableID>dbo_TH_FINANCIERA</TableID>
+              <ColumnID>NUMERADOR_VALOR_COLONES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="a9baf359-37de-4d5c-a832-926a2da61701">
+          <ID>DENOMINADOR VALOR COLONES</ID>
+          <Name>DENOMINADOR VALOR COLONES</Name>
+          <Source dwd:design-time-name="22106cc5-e53d-4646-b83a-9a9548a2aebc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8b6b4c91-eec0-464f-9f55-3cf4f6d1ca60">
+              <TableID>dbo_TH_FINANCIERA</TableID>
+              <ColumnID>DENOMINADOR_VALOR_COLONES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="a509f355-e08c-4ca1-9b6f-7d1b1f8808e8">
+          <ID>NUMERADOR VALOR DOLARES</ID>
+          <Name>NUMERADOR VALOR DOLARES</Name>
+          <Source dwd:design-time-name="3cac73e7-82a8-4ba9-948a-cb137e6dd5cf">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8d033192-d7c6-4a0b-8bc8-e45ae559ebb4">
+              <TableID>dbo_TH_FINANCIERA</TableID>
+              <ColumnID>NUMERADOR_VALOR_DOLARES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="7aaf7060-5413-48ba-ab48-f426d95118e3">
+          <ID>DENOMINADOR VALOR DOLARES</ID>
+          <Name>DENOMINADOR VALOR DOLARES</Name>
+          <Source dwd:design-time-name="c24924da-9a59-4ee1-8713-66af972d23ff">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e68fd5c7-845e-4d6c-96b4-1c7666938678">
+              <TableID>dbo_TH_FINANCIERA</TableID>
+              <ColumnID>DENOMINADOR_VALOR_DOLARES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="421b8fad-b58d-413f-8461-75a3550f5947">
+          <ID>NUMERADOR PRESUPUESTO COLONES</ID>
+          <Name>NUMERADOR PRESUPUESTO COLONES</Name>
+          <Source dwd:design-time-name="b01c975e-0e4f-46e0-a575-7c5050db5f47">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e22e5736-4b45-476f-8973-03f8304aee06">
+              <TableID>dbo_TH_FINANCIERA</TableID>
+              <ColumnID>NUMERADOR_PRESUPUESTO_COLONES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="372fa49d-8aad-49a1-97f3-a3e616a5fa33">
+          <ID>DENOMINADOR PRESUPUESTO COLONES</ID>
+          <Name>DENOMINADOR PRESUPUESTO COLONES</Name>
+          <Source dwd:design-time-name="6286b294-5c3a-4901-8c90-871ac1d323b6">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ca1d021f-df5d-45d6-9a9d-b38aa95b1a23">
+              <TableID>dbo_TH_FINANCIERA</TableID>
+              <ColumnID>DENOMINADOR_PRESUPUESTO_COLONES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="fb4dbd8a-4652-46d1-8c83-7fcfd1840389">
+          <ID>NUMERADOR PRESUPUESTO DOLARES</ID>
+          <Name>NUMERADOR PRESUPUESTO DOLARES</Name>
+          <Source dwd:design-time-name="f7765d35-1e3e-46de-9509-71819b8e9058">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0928b237-99e0-49cb-a52f-8894efb2d298">
+              <TableID>dbo_TH_FINANCIERA</TableID>
+              <ColumnID>NUMERADOR_PRESUPUESTO_DOLARES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="bb15f002-719b-41ea-9550-06326873f956">
+          <ID>DENOMINADOR PRESUPUESTO DOLARES</ID>
+          <Name>DENOMINADOR PRESUPUESTO DOLARES</Name>
+          <Source dwd:design-time-name="8d5939aa-a845-4263-9a88-9230f9a3e15a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a17195fa-390a-4cb9-aa47-340e9500320f">
+              <TableID>dbo_TH_FINANCIERA</TableID>
+              <ColumnID>DENOMINADOR_PRESUPUESTO_DOLARES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="fc60d4aa-d393-46d9-8cbc-eb0c9958dd94">
+          <ID>Medidas Count</ID>
+          <Name>CONTADOR</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="022c0b8b-5459-4380-938c-657421a993b9">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="c78bd327-e4b0-4f6f-8293-efe44f9280c3">
+              <TableID>dbo_TH_FINANCIERA</TableID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="6b2f2ec4-b5f7-45c1-9724-fc3539abe2f3">
+          <ID>NUMERADOR VALOR COLONES - Medidas</ID>
+          <Name>CONTADOR DIF</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <Source dwd:design-time-name="9682fa89-b736-4414-954c-64a6846296a5">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="77f086ac-1185-4af2-a2b2-0e440721f079">
+              <TableID>dbo_TH_FINANCIERA</TableID>
+              <ColumnID>NUMERADOR_VALOR_COLONES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c21f7d56-3dca-401e-83a3-fa0a62b1b4d5">
+          <CubeDimensionID>Tienda</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8a1aaf5b-5a82-40b1-828c-5b75bbb2e07f">
+              <AttributeID>ID TIENDA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="56d3fbaa-9000-4316-a24a-00deed394ef8">
+                  <DataType>SmallInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9fe75389-3a57-4771-9b03-6924aaf29475">
+                    <TableID>dbo_TH_FINANCIERA</TableID>
+                    <ColumnID>ID_TIENDA</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c260b260-33cc-49e1-b8bf-b9d78070c6bf">
+          <CubeDimensionID>Compañía</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="25052957-8abe-4603-b28e-5c46106e019c">
+              <AttributeID>ID COMPANIA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="26a6bc43-72ba-420f-bb4e-f40908c6363c">
+                  <DataType>SmallInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a657a8bc-4cc1-4371-99b1-b3e01a40ee63">
+                    <TableID>dbo_TH_FINANCIERA</TableID>
+                    <ColumnID>ID_COMPANIA</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f1305a4d-28c2-451e-9e13-73498360beb7">
+          <CubeDimensionID>Cadena</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7a79852a-c562-4ba1-81f3-6cf0e556fc25">
+              <AttributeID>ID CADENA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3efdf805-f31b-4be7-b4f2-7459e115306c">
+                  <DataType>SmallInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f7cdc034-b29d-4976-bb49-a734768436c6">
+                    <TableID>dbo_TH_FINANCIERA</TableID>
+                    <ColumnID>ID_CADENA</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0dca736c-6aa1-43da-b848-edfac03d8237">
+          <CubeDimensionID>KPI</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e2db041c-2997-4cdd-9150-10d6d66d41b3">
+              <AttributeID>ID KPI</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a8ff3482-bf67-4f8f-8281-a111969f5dae">
+                  <DataType>SmallInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1d1af549-8369-4f11-b22b-cb7adcc9237f">
+                    <TableID>dbo_TH_FINANCIERA</TableID>
+                    <ColumnID>ID_KPI</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4183f3a0-9eaf-4059-aad4-36bc9dae6bb3">
+          <CubeDimensionID>Fecha</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c96856a5-f92f-4eef-ba13-f1c3ec0ada8f">
+              <AttributeID>ID FECHA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4fc0d905-bc8a-4d60-9acb-b2cf9d47efe6">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="533e8803-104d-4335-9d19-1b37b97a5631">
+                    <TableID>dbo_TH_FINANCIERA</TableID>
+                    <ColumnID>ID_FECHA</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fe182c6d-b48c-4430-b931-aec78ab44079">
+          <CubeDimensionID>Plazo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4ab06a6f-01fe-4306-9067-138250b1b1ed">
+              <AttributeID>ID PLAZO</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0c2ad632-5bd8-4f6c-9ad5-da2c519c90e2">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a146a9e8-99de-4ea9-a941-db17540de8c6">
+                    <TableID>dbo_TH_FINANCIERA</TableID>
+                    <ColumnID>ID_PLAZO</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5e34b7b9-2714-4ced-b045-666c8cdae486">
+          <CubeDimensionID>Tasa</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1d5731b4-211d-45ac-9684-f7d12bf02a18">
+              <AttributeID>ID TASA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9b240fca-f527-443c-858e-a98ec0dc1610">
+                  <DataType>Double</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="770780f5-b344-4524-ade4-f7d860e4edca">
+                    <TableID>dbo_TH_FINANCIERA</TableID>
+                    <ColumnID>ID_TASA</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="fee3ddf7-6c7c-41e5-9f84-bfdc8e995fe6">
+      <ID>TH FINANCIERA AA</ID>
+      <Name>TH FINANCIERA AA</Name>
+      <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="40495419-beaa-417d-b961-ff173362b19a">
+          <ID>NUMERADOR VALOR COLONES - TH FINANCIERA AA 1</ID>
+          <Name>NUMERADOR VALOR COLONES AA</Name>
+          <Source dwd:design-time-name="393a91d0-133c-452e-9b42-1fc529ffdf83">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="37dbc185-4af6-4b93-9882-cf662ab0fe4e">
+              <TableID>dbo_TH_FINANCIERA_AA</TableID>
+              <ColumnID>NUMERADOR_VALOR_COLONES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="efb10082-ca16-494d-9c31-7994f7e70532">
+          <ID>DENOMINADOR VALOR COLONES - TH FINANCIERA AA</ID>
+          <Name>DENOMINADOR VALOR COLONES AA</Name>
+          <Source dwd:design-time-name="e804dc29-50b7-4f5e-b76e-f70d950097d2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a646b60e-874a-4635-8b73-5285e6649b42">
+              <TableID>dbo_TH_FINANCIERA_AA</TableID>
+              <ColumnID>DENOMINADOR_VALOR_COLONES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="75225127-965f-4f30-a0cf-1759c6b5a9c3">
+          <ID>NUMERADOR VALOR DOLARES - TH FINANCIERA AA</ID>
+          <Name>NUMERADOR VALOR DOLARES AA</Name>
+          <Source dwd:design-time-name="8e767706-bb37-4f66-ae0e-85fe110c105c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d04d8eff-b4af-41fa-947c-0f8693aa1633">
+              <TableID>dbo_TH_FINANCIERA_AA</TableID>
+              <ColumnID>NUMERADOR_VALOR_DOLARES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="dcfdb728-ad80-4a14-8024-c897fe5f041b">
+          <ID>DENOMINADOR VALOR DOLARES - TH FINANCIERA AA</ID>
+          <Name>DENOMINADOR VALOR DOLARES AA</Name>
+          <Source dwd:design-time-name="9d62403c-3cbb-4905-b91a-84ca149f6852">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bd7ad8a3-d214-4575-93ef-651d66045294">
+              <TableID>dbo_TH_FINANCIERA_AA</TableID>
+              <ColumnID>DENOMINADOR_VALOR_DOLARES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="8bdb2a5e-dabd-41bd-ab04-540ce9e69302">
+          <ID>NUMERADOR PRESUPUESTO COLONES - TH FINANCIERA AA</ID>
+          <Name>NUMERADOR PRESUPUESTO COLONES AA</Name>
+          <Source dwd:design-time-name="ca25add0-2ea3-42d3-84ea-ff5a86fb46fb">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d0487434-3220-482b-a252-3a02e0fe034f">
+              <TableID>dbo_TH_FINANCIERA_AA</TableID>
+              <ColumnID>NUMERADOR_PRESUPUESTO_COLONES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="fb3e2bdf-ef00-4a7e-a3fe-8f04eb0401a2">
+          <ID>DENOMINADOR PRESUPUESTO COLONES - TH FINANCIERA AA</ID>
+          <Name>DENOMINADOR PRESUPUESTO COLONES AA</Name>
+          <Source dwd:design-time-name="03cbfd0e-c07e-4ba6-bf6c-0707ebcf5bef">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b32c5e03-6b58-4643-b95e-7ac81a44b461">
+              <TableID>dbo_TH_FINANCIERA_AA</TableID>
+              <ColumnID>DENOMINADOR_PRESUPUESTO_COLONES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="802e7b87-a90a-4ddf-9909-eef2c2f302d2">
+          <ID>NUMERADOR PRESUPUESTO DOLARES - TH FINANCIERA AA</ID>
+          <Name>NUMERADOR PRESUPUESTO DOLARES AA</Name>
+          <Source dwd:design-time-name="1edb6215-3fb6-41dd-a0b6-e5268b7bcda9">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="608924c2-0f06-4d12-b200-7d4ed749c06c">
+              <TableID>dbo_TH_FINANCIERA_AA</TableID>
+              <ColumnID>NUMERADOR_PRESUPUESTO_DOLARES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="e1ca37b3-08e2-415d-bf60-223fa6d3a01b">
+          <ID>DENOMINADOR PRESUPUESTO DOLARES - TH FINANCIERA AA</ID>
+          <Name>DENOMINADOR PRESUPUESTO DOLARES AA</Name>
+          <Source dwd:design-time-name="1e9c91d6-4960-4821-bd59-5051dc5c06dc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="526fcfa3-e9a9-45ee-8c69-c444a2dd5c1c">
+              <TableID>dbo_TH_FINANCIERA_AA</TableID>
+              <ColumnID>DENOMINADOR_PRESUPUESTO_DOLARES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="f9aed7e0-78ed-4e5f-b148-41e0f2c80b2e">
+          <ID>TH FINANCIERA AA Count</ID>
+          <Name>CONTADOR AA</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="f8d622ae-7d25-4b2f-966c-9abec7a8722f">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="3d1e1a6f-9093-4f7d-8398-a427b9a97e46">
+              <TableID>dbo_TH_FINANCIERA_AA</TableID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+        <Measure dwd:design-time-name="850210c9-d45a-415e-9c15-00f80e238d2f">
+          <ID>NUMERADOR VALOR COLONES - TH FINANCIERA AA</ID>
+          <Name>CONTADOR DIF AA</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <Source dwd:design-time-name="2955b381-ff44-4cc4-994f-9a5102b5ba28">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="01518bbd-1299-4911-a043-6eb742eb4d65">
+              <TableID>dbo_TH_FINANCIERA_AA</TableID>
+              <ColumnID>NUMERADOR_VALOR_COLONES</ColumnID>
+            </Source>
+          </Source>
+          <Visible>false</Visible>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="051f5d69-ad7f-44ec-a28c-ad065969f619">
+          <CubeDimensionID>Fecha</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7fb1f769-8a71-49ed-9a9a-55f65a0e6cf0">
+              <AttributeID>ID FECHA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bf731864-7066-4573-b9ce-ac5555a3f8e2">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f6936725-f725-4cfb-abc4-17b5ee836af6">
+                    <TableID>dbo_TH_FINANCIERA_AA</TableID>
+                    <ColumnID>ID_FECHA</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3ef26bd2-9c63-4479-a912-b6dbaddfdc61">
+          <CubeDimensionID>KPI</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="72a427ae-b3e1-4102-8fda-129816cbdafb">
+              <AttributeID>ID KPI</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="95899aa9-76af-4ff6-8559-8c57580a2315">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="aa5ff310-61a5-4129-a40d-d4f292976b65">
+                    <TableID>dbo_TH_FINANCIERA_AA</TableID>
+                    <ColumnID>ID_KPI</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="486b4ec4-4e50-4bb2-9ee5-d739f3f6b509">
+          <CubeDimensionID>Cadena</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="29936076-694a-46b9-a2d4-7b6f18bc359d">
+              <AttributeID>ID CADENA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0a2d702a-541b-4fed-9418-767d6d4784c9">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1ece2342-6a14-40fb-8c8f-781e3849b485">
+                    <TableID>dbo_TH_FINANCIERA_AA</TableID>
+                    <ColumnID>ID_CADENA</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0f9819eb-67da-424f-9ec5-241e185d49f6">
+          <CubeDimensionID>Tienda</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="380eae1a-e907-4102-84bc-853b11f17951">
+              <AttributeID>ID TIENDA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bbab51bf-af9d-45c5-b8b8-30356a39868d">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="af45dcda-d159-4161-ba73-25637099ccfc">
+                    <TableID>dbo_TH_FINANCIERA_AA</TableID>
+                    <ColumnID>ID_TIENDA</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="03a10285-473d-4826-9c94-79d44d478b30">
+          <CubeDimensionID>Plazo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8a9d1e8d-746b-425e-82e9-f3170c9523cc">
+              <AttributeID>ID PLAZO</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b590a697-ba5f-460b-9cd8-9bf473351612">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a9122a96-e637-4ac4-aa47-eb7807e5f965">
+                    <TableID>dbo_TH_FINANCIERA_AA</TableID>
+                    <ColumnID>ID_PLAZO</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2a071852-f137-43a1-9396-dd536921acbe">
+          <CubeDimensionID>Tasa</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3aeb7df0-996f-4dab-a0c2-5d1ebf591f2d">
+              <AttributeID>ID TASA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a7ee91c2-853a-4c5f-a16d-661996f5fba3">
+                  <DataType>Double</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="db7f0a71-6f52-4d85-b528-309f3c73e750">
+                    <TableID>dbo_TH_FINANCIERA_AA</TableID>
+                    <ColumnID>ID_TASA</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c73a461f-310d-46a3-b67c-b62fb4260845">
+          <CubeDimensionID>Compañía</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3f6db93a-c8ae-4093-a2d3-aa88534aa008">
+              <AttributeID>ID COMPANIA</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8673cd37-fbf3-45fd-a63b-9efb5443d531">
+                  <DataType>SmallInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="20e718c7-e48f-436a-b32d-a1d3b3eca7f3">
+                    <TableID>dbo_TH_FINANCIERA_AA</TableID>
+                    <ColumnID>ID_COMPANIA</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="62c54fbe-805c-4fc2-8134-af2183a8774d">
+    <DataSourceViewID>vDWH</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="2f8c5929-b16b-4c6c-a003-d458bd110bb0">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text> 
+CREATE MEMBER CURRENTCUBE.[Measures].[Valor Ponderado]
+ AS CASE WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "52" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "53" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "54"  THEN 
+sum(descendants([Plazo].[Plazo].currentmember, [Plazo].[Plazo].[Plazo]),   ([Measures].[NUMERADOR VALOR COLONES] / [Measures].[CONTADOR]) * ([Measures].[DENOMINADOR VALOR COLONES] / ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])))
+ELSE 0
+END, 
+VISIBLE = 0;       
+CREATE MEMBER CURRENTCUBE.[Measures].[LTM Día LY]
+ AS CASE WHEN ([Measures].[Valor Colones LY],[KPI].[COD KPI].&amp;[68]) = 0 THEN 0 ELSE 360/([Measures].[Valor Colones LY],[KPI].[COD KPI].&amp;[68]) END, 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "83" THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 1;       
+CREATE MEMBER CURRENTCUBE.[Measures].[LTM Día]
+ AS CASE WHEN ([Measures].[Valor Colones],[KPI].[COD KPI].&amp;[68]) = 0 THEN 0 ELSE 360/([Measures].[Valor Colones],[KPI].[COD KPI].&amp;[68]) END, 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "83" THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 1;       
+CREATE MEMBER CURRENTCUBE.[Measures].[Valor Colones ABS]
+ AS Abs([Measures].[Valor Colones]), 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "83" THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 0  ;       
+CREATE MEMBER CURRENTCUBE.[Measures].[Valor Colones LY ABS]
+ AS Abs([Measures].[Valor Colones LY]), 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "83" THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 0  ;                   
+CREATE MEMBER CURRENTCUBE.[Measures].[Valor Tasa Ponderada]
+ AS CASE WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "55" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "56" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "57"  THEN 
+sum(descendants([Tasa].[Tasa].currentmember, [Tasa].[Tasa].[Tasa]),   ([Measures].[NUMERADOR VALOR COLONES] / [Measures].[CONTADOR]) * ([Measures].[DENOMINADOR VALOR COLONES] / ([Tasa].[Tasa].[All],[Measures].[DENOMINADOR VALOR COLONES])))
+
+ELSE 0
+END, 
+VISIBLE = 0;     
+CREATE MEMBER CURRENTCUBE.[Measures].[Valor Tasa Ponderada AA]
+ AS CASE WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "55" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "56" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "57"  THEN 
+sum(descendants([Tasa].[Tasa].currentmember, [Tasa].[Tasa].[Tasa]),   ([Measures].[NUMERADOR VALOR COLONES AA] / [Measures].[CONTADOR]) * ([Measures].[DENOMINADOR VALOR COLONES AA] / ([Tasa].[Tasa].[All],[Measures].[DENOMINADOR VALOR COLONES AA])))
+
+ELSE 0
+END, 
+VISIBLE = 0;                   /*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;                        
+CREATE MEMBER CURRENTCUBE.[Measures].[Rotacion Inventario kpi67 Col]
+ AS iif (isempty(([Measures].[NUMERADOR VALOR COLONES], [KPI].[KPI].[KPI].&amp;[68])), 0, ([Measures].[NUMERADOR VALOR COLONES], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR VALOR COLONES], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR VALOR COLONES], [KPI].[KPI].[KPI].&amp;[68])), 
+VISIBLE = 0;     
+CREATE MEMBER CURRENTCUBE.[Measures].[Rotacion Inventario kpi67 Col AA]
+ AS iif (isempty(([Measures].[NUMERADOR VALOR COLONES AA], [KPI].[KPI].[KPI].&amp;[68])), 0, ([Measures].[NUMERADOR VALOR COLONES AA], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR VALOR COLONES AA], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR VALOR COLONES AA], [KPI].[KPI].[KPI].&amp;[68])), 
+VISIBLE = 0;                
+CREATE MEMBER CURRENTCUBE.[Measures].[Rotacion Inventario kpi67 Pres Col]
+ AS iif (isempty(([Measures].[NUMERADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[68])), 0, ([Measures].[NUMERADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[68])), 
+VISIBLE = 0;                
+CREATE MEMBER CURRENTCUBE.[Measures].[Rotacion Inventario kpi67 Pres Dol]
+ AS iif (isempty(([Measures].[NUMERADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[68])), 0, ([Measures].[NUMERADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[68])), 
+VISIBLE = 0;                 
+CREATE MEMBER CURRENTCUBE.[Measures].[Rotacion Inventario kpi68 Col]
+ AS CASE /*SI EL DENOMINADOR ES 0 RETORNA null*/
+WHEN ([Measures].[DENOMINADOR VALOR COLONES], [KPI].[KPI].[KPI].&amp;[68]) = 0 OR ([Measures].[NUMERADOR VALOR COLONES], [KPI].[KPI].[KPI].&amp;[68]) = 0 THEN NULL
+ELSE
+case when 
+    360 / (
+    iif (isempty(([Measures].[NUMERADOR VALOR COLONES], [KPI].[KPI].[KPI].&amp;[68])), 0, ([Measures].[NUMERADOR VALOR COLONES], [KPI].[KPI].[KPI].&amp;[68]))  /  ([Measures].[DENOMINADOR VALOR COLONES], [KPI].[KPI].[KPI].&amp;[68])
+    ) = 360 then 0
+    else 
+    360 / (
+    iif (isempty(([Measures].[NUMERADOR VALOR COLONES], [KPI].[KPI].[KPI].&amp;[68])), 0, ([Measures].[NUMERADOR VALOR COLONES], [KPI].[KPI].[KPI].&amp;[68]))  /  ([Measures].[DENOMINADOR VALOR COLONES], [KPI].[KPI].[KPI].&amp;[68])
+    )
+    end
+END, 
+VISIBLE = 0;     
+CREATE MEMBER CURRENTCUBE.[Measures].[Rotacion Inventario kpi68 Col-AA]
+ AS CASE /*SI EL DENOMINADOR ES 0 RETORNA null*/
+WHEN ([Measures].[DENOMINADOR VALOR COLONES AA], [KPI].[KPI].[KPI].&amp;[68]) = 0 OR ([Measures].[NUMERADOR VALOR COLONES AA], [KPI].[KPI].[KPI].&amp;[68]) = 0 THEN NULL
+ELSE
+case when 
+    360 / (
+    iif (isempty(([Measures].[NUMERADOR VALOR COLONES AA], [KPI].[KPI].[KPI].&amp;[68])), 0, ([Measures].[NUMERADOR VALOR COLONES AA], [KPI].[KPI].[KPI].&amp;[68]))  /  ([Measures].[DENOMINADOR VALOR COLONES AA], [KPI].[KPI].[KPI].&amp;[68])
+    ) = 360 then 0
+    else 
+    360 / (
+    iif (isempty(([Measures].[NUMERADOR VALOR COLONES AA], [KPI].[KPI].[KPI].&amp;[68])), 0, ([Measures].[NUMERADOR VALOR COLONES AA], [KPI].[KPI].[KPI].&amp;[68]))  /  ([Measures].[DENOMINADOR VALOR COLONES AA], [KPI].[KPI].[KPI].&amp;[68])
+    )
+    end
+END, 
+VISIBLE = 0;                
+CREATE MEMBER CURRENTCUBE.[Measures].[Rotacion Inventario kpi68 Dol]
+ AS CASE /*SI EL DENOMINADOR ES 0 RETORNA null*/
+WHEN ([Measures].[DENOMINADOR VALOR DOALRES], [KPI].[KPI].[KPI].&amp;[68]) = 0 THEN NULL
+ELSE
+case
+    when 
+    360 / (
+    iif (isempty(([Measures].[NUMERADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[68])), 1, ([Measures].[NUMERADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[68]))
+    ) = 360 then 0
+    else 
+    360 / (
+    iif (isempty(([Measures].[NUMERADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[68])), 1, ([Measures].[NUMERADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[68]))
+    )
+    end
+end, 
+VISIBLE = 0;     
+CREATE MEMBER CURRENTCUBE.[Measures].[Rotacion Inventario kpi68 Dol-AA]
+ AS CASE /*SI EL DENOMINADOR ES 0 RETORNA null*/
+WHEN ([Measures].[DENOMINADOR VALOR DOALRES AA], [KPI].[KPI].[KPI].&amp;[68]) = 0 THEN NULL
+ELSE
+case
+    when 
+    360 / (
+    iif (isempty(([Measures].[NUMERADOR VALOR DOLARES AA], [KPI].[KPI].[KPI].&amp;[68])), 1, ([Measures].[NUMERADOR VALOR DOLARES AA], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR VALOR DOLARES AA], [KPI].[KPI].[KPI].&amp;[68]))
+    ) = 360 then 0
+    else 
+    360 / (
+    iif (isempty(([Measures].[NUMERADOR VALOR DOLARES AA], [KPI].[KPI].[KPI].&amp;[68])), 1, ([Measures].[NUMERADOR VALOR DOLARES AA], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR VALOR DOLARES AA], [KPI].[KPI].[KPI].&amp;[68]))
+    )
+    end
+end, 
+VISIBLE = 0;                 
+CREATE MEMBER CURRENTCUBE.[Measures].[Rotacion Inventario kpi68 Pres Col]
+ AS case 
+when 360 / (
+iif (isempty(([Measures].[NUMERADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[68])), 1, ([Measures].[NUMERADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[68]))
+) = 360 /*debe retornar 0*/ then 0
+else
+360 / (
+iif (isempty(([Measures].[NUMERADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[68])), 1, ([Measures].[NUMERADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[68]))
+)
+end, 
+VISIBLE = 0;     
+CREATE MEMBER CURRENTCUBE.[Measures].[Rotacion Inventario kpi68 Pres Col-AA]
+ AS case 
+when 360 / (
+iif (isempty(([Measures].[NUMERADOR PRESUPUESTO COLONES AA], [KPI].[KPI].[KPI].&amp;[68])), 1, ([Measures].[NUMERADOR PRESUPUESTO COLONES AA], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR PRESUPUESTO COLONES AA], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR PRESUPUESTO COLONES AA], [KPI].[KPI].[KPI].&amp;[68]))
+) = 360 /*debe retornar 0*/ then 0
+else
+360 / (
+iif (isempty(([Measures].[NUMERADOR PRESUPUESTO COLONES AA], [KPI].[KPI].[KPI].&amp;[68])), 1, ([Measures].[NUMERADOR PRESUPUESTO COLONES AA], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR PRESUPUESTO COLONES AA], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR PRESUPUESTO COLONES AA], [KPI].[KPI].[KPI].&amp;[68]))
+)
+end, 
+VISIBLE = 0;                
+CREATE MEMBER CURRENTCUBE.[Measures].[Rotacion Inventario kpi68 Pres Dol]
+ AS case
+when
+360 / (
+iif (isempty(([Measures].[NUMERADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[68])), 1, ([Measures].[NUMERADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[68]))
+) = 360 /*no debe dividir, por lo que debe retornar un 0 */ then 0
+else 
+360 / (
+iif (isempty(([Measures].[NUMERADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[68])), 1, ([Measures].[NUMERADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[68]))
+)
+end, 
+VISIBLE = 0;     
+CREATE MEMBER CURRENTCUBE.[Measures].[Rotacion Inventario kpi68 Pres Dol-AA]
+ AS case
+when
+360 / (
+iif (isempty(([Measures].[NUMERADOR PRESUPUESTO DOLARES AA], [KPI].[KPI].[KPI].&amp;[68])), 1, ([Measures].[NUMERADOR PRESUPUESTO DOLARES AA], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR PRESUPUESTO DOLARES AA], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR PRESUPUESTO DOLARES AA], [KPI].[KPI].[KPI].&amp;[68]))
+) = 360 /*no debe dividir, por lo que debe retornar un 0 */ then 0
+else 
+360 / (
+iif (isempty(([Measures].[NUMERADOR PRESUPUESTO DOLARES AA], [KPI].[KPI].[KPI].&amp;[68])), 1, ([Measures].[NUMERADOR PRESUPUESTO DOLARES AA], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR PRESUPUESTO DOLARES AA], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR PRESUPUESTO DOLARES AA], [KPI].[KPI].[KPI].&amp;[68]))
+)
+end, 
+VISIBLE = 0;           
+CREATE MEMBER CURRENTCUBE.[Measures].[% Var. Venta por Colaborador real/Presup Dol]
+ AS iif (([Measures].[NUMERADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[81]) &lt;&gt; 0,((iif (isempty(([Measures].[NUMERADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[81])), 0, ([Measures].[NUMERADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[81]))  
+	- iif ((([Measures].[NUMERADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[81]) = 0) , 1, ([Measures].[NUMERADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[81]))) 
+	/ iif ((([Measures].[NUMERADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[81]) = 0) , 1, ([Measures].[NUMERADOR PRESUPUESTO DOLARES], [KPI].[KPI].[KPI].&amp;[81]))),NULL), 
+FORMAT_STRING = "#,##.00%", 
+VISIBLE = 0;     
+CREATE MEMBER CURRENTCUBE.[Measures].[% Var. Venta por Colaborador real/Presup Dol-AA]
+ AS iif (([Measures].[NUMERADOR PRESUPUESTO DOLARES AA], [KPI].[KPI].[KPI].&amp;[81]) &lt;&gt; 0,((iif (isempty(([Measures].[NUMERADOR VALOR DOLARES AA], [KPI].[KPI].[KPI].&amp;[81])), 0, ([Measures].[NUMERADOR VALOR DOLARES AA], [KPI].[KPI].[KPI].&amp;[81]))  
+	- iif ((([Measures].[NUMERADOR PRESUPUESTO DOLARES AA], [KPI].[KPI].[KPI].&amp;[81]) = 0) , 1, ([Measures].[NUMERADOR PRESUPUESTO DOLARES AA], [KPI].[KPI].[KPI].&amp;[81]))) 
+	/ iif ((([Measures].[NUMERADOR PRESUPUESTO DOLARES AA], [KPI].[KPI].[KPI].&amp;[81]) = 0) , 1, ([Measures].[NUMERADOR PRESUPUESTO DOLARES AA], [KPI].[KPI].[KPI].&amp;[81]))),NULL), 
+VISIBLE = 0;     
+CREATE MEMBER CURRENTCUBE.[Measures].[% Var. Venta por Colaborador real/Presup-AA]
+ AS iif (([Measures].[NUMERADOR PRESUPUESTO COLONES AA], [KPI].[KPI].[KPI].&amp;[81]) &lt;&gt; 0,((iif (isempty(([Measures].[NUMERADOR VALOR COLONES AA], [KPI].[KPI].[KPI].&amp;[81])), 0, ([Measures].[NUMERADOR VALOR COLONES AA], [KPI].[KPI].[KPI].&amp;[81]))  
+	- iif ((([Measures].[NUMERADOR PRESUPUESTO COLONES AA], [KPI].[KPI].[KPI].&amp;[81]) = 0) , 1, ([Measures].[NUMERADOR PRESUPUESTO COLONES AA], [KPI].[KPI].[KPI].&amp;[81]))) 
+	/ iif ((([Measures].[NUMERADOR PRESUPUESTO COLONES AA], [KPI].[KPI].[KPI].&amp;[81]) = 0) , 1, ([Measures].[NUMERADOR PRESUPUESTO COLONES AA], [KPI].[KPI].[KPI].&amp;[81]))),NULL), 
+VISIBLE = 0;                      
+CREATE MEMBER CURRENTCUBE.[Measures].[% Var. Venta por Colaborador real/Presup]
+ AS iif (([Measures].[NUMERADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[81]) &lt;&gt; 0,((iif (isempty(([Measures].[NUMERADOR VALOR COLONES], [KPI].[KPI].[KPI].&amp;[81])), 0, ([Measures].[NUMERADOR VALOR COLONES], [KPI].[KPI].[KPI].&amp;[81]))  
+	- iif ((([Measures].[NUMERADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[81]) = 0) , 1, ([Measures].[NUMERADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[81]))) 
+	/ iif ((([Measures].[NUMERADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[81]) = 0) , 1, ([Measures].[NUMERADOR PRESUPUESTO COLONES], [KPI].[KPI].[KPI].&amp;[81]))),NULL), 
+FORMAT_STRING = "#,##.00%", 
+VISIBLE = 0;                        
+CREATE MEMBER CURRENTCUBE.[Measures].[Rotacion Inventario kpi67 Dol]
+ AS iif (isempty(([Measures].[NUMERADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[68])), 0, ([Measures].[NUMERADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[68]))  / iif ((([Measures].[DENOMINADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[68]) = 0) , 1, ([Measures].[DENOMINADOR VALOR DOLARES], [KPI].[KPI].[KPI].&amp;[68])), 
+VISIBLE = 0;     
+CREATE MEMBER CURRENTCUBE.[Measures].[Valor Ponderados AA]
+ AS CASE WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "52" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "53" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "54" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "55" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "56" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "57" THEN 
+/*se calcula el promedio ponderado para los diferentes 100 plazos posibles*/    
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[1],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[1], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 1)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[2],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[2], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 2)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[3],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[3], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 3)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[4],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[4], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 4)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[5],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[5], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 5)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[6],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[6], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 6)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[7],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[7], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 7)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[8],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[8], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 8)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[9],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[9], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 9)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[10],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[10], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 10)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[11],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[11], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 11)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[12],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[12], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 12)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[13],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[13], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 13)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[14],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[14], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 14)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[15],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[15], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 15)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[16],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[16], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 16)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[17],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[17], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 17)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[18],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[18], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 18)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[19],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[19], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 19)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[20],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[20], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 20)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[21],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[21], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 21)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[22],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[22], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 22)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[23],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[23], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 23)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[24],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[24], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 24)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[25],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[25], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 25)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[26],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[26], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 26)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[27],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[27], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 27)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[28],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[28], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 28)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[29],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[29], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 29)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[30],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[30], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 30)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[31],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[31], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 31)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[32],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[32], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 32)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[33],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[33], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 33)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[34],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[34], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 34)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[35],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[35], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 35)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[36],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[36], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 36)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[37],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[37], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 37)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[38],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[38], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 38)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[39],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[39], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 39)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[40],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[40], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 40)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[41],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[41], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 41)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[42],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[42], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 42)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[43],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[43], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 43)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[44],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[44], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 44)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[45],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[45], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 45)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[46],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[46], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 46)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[47],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[47], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 47)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[48],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[48], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 48)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[49],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[49], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 49)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[50],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[50], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 50)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[51],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[51], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 51)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[52],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[52], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 52)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[53],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[53], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 53)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[54],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[54], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 54)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[55],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[55], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 55)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[56],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[56], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 56)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[57],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[57], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 57)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[58],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[58], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 58)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[59],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[59], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 59)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[60],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[60], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 60)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[61],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[61], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 61)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[62],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[62], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 62)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[63],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[63], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 63)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[64],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[64], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 64)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[65],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[65], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 65)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[66],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[66], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 66)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[67],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[67], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 67)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[68],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[68], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 68)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[69],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[69], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 69)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[70],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[70], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 70)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[71],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[71], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 71)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[72],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[72], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 72)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[73],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[73], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 73)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[74],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[74], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 74)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[75],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[75], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 75)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[76],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[76], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 76)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[77],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[77], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 77)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[78],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[78], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 78)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[79],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[79], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 79)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[80],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[80], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 80)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[81],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[81], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 81)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[82],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[82], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 82)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[83],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[83], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 83)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[84],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[84], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 84)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[85],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[85], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 85)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[86],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[86], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 86)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[87],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[87], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 87)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[88],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[88], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 88)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[89],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[89], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 89)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[90],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[90], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 90)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[91],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[91], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 91)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[92],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[92], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 92)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[93],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[93], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 93)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[94],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[94], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 94)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[95],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[95], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 95)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[96],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[96], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 96)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[97],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[97], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 97)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[98],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[98], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 98)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[99],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[99], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 99)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[100],[Measures].[DENOMINADOR VALOR COLONES AA] )),0,([Plazo].[Plazo].[Plazo].&amp;[100], [Measures].[DENOMINADOR VALOR COLONES AA]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES AA]))) * 100)  
+
+
+ELSE 0
+END, 
+VISIBLE = 0;                               
+CREATE MEMBER CURRENTCUBE.[Measures].[Valor Normal Dólares]
+ AS CASE
+    WHEN [Measures].[DENOMINADOR VALOR DOLARES] &lt;&gt; 0 THEN [Measures].[NUMERADOR VALOR DOLARES] / [Measures].[DENOMINADOR VALOR DOLARES]
+    ELSE [Measures].[NUMERADOR VALOR DOLARES]
+END, 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 0;   
+CREATE MEMBER CURRENTCUBE.[Measures].[Valor Normal Dólares AA]
+ AS CASE
+    WHEN [Measures].[DENOMINADOR VALOR DOLARES AA] &lt;&gt; 0 THEN [Measures].[NUMERADOR VALOR DOLARES AA] / [Measures].[DENOMINADOR VALOR DOLARES AA]
+    ELSE [Measures].[NUMERADOR VALOR DOLARES AA]
+END, 
+VISIBLE = 0;                            
+CREATE MEMBER CURRENTCUBE.[Measures].[Valor Ponderados]
+ AS CASE WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "52" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "53" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "54" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "55" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "56" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "57" THEN 
+/*se calcula el promedio ponderado para los diferentes 100 plazos posibles*/    
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[1],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[1], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 1)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[2],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[2], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 2)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[3],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[3], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 3)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[4],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[4], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 4)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[5],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[5], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 5)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[6],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[6], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 6)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[7],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[7], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 7)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[8],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[8], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 8)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[9],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[9], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 9)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[10],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[10], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 10)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[11],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[11], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 11)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[12],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[12], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 12)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[13],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[13], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 13)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[14],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[14], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 14)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[15],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[15], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 15)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[16],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[16], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 16)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[17],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[17], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 17)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[18],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[18], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 18)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[19],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[19], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 19)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[20],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[20], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 20)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[21],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[21], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 21)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[22],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[22], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 22)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[23],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[23], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 23)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[24],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[24], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 24)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[25],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[25], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 25)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[26],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[26], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 26)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[27],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[27], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 27)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[28],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[28], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 28)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[29],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[29], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 29)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[30],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[30], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 30)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[31],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[31], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 31)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[32],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[32], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 32)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[33],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[33], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 33)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[34],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[34], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 34)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[35],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[35], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 35)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[36],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[36], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 36)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[37],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[37], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 37)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[38],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[38], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 38)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[39],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[39], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 39)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[40],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[40], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 40)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[41],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[41], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 41)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[42],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[42], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 42)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[43],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[43], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 43)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[44],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[44], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 44)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[45],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[45], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 45)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[46],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[46], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 46)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[47],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[47], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 47)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[48],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[48], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 48)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[49],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[49], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 49)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[50],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[50], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 50)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[51],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[51], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 51)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[52],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[52], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 52)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[53],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[53], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 53)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[54],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[54], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 54)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[55],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[55], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 55)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[56],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[56], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 56)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[57],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[57], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 57)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[58],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[58], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 58)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[59],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[59], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 59)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[60],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[60], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 60)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[61],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[61], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 61)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[62],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[62], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 62)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[63],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[63], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 63)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[64],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[64], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 64)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[65],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[65], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 65)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[66],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[66], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 66)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[67],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[67], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 67)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[68],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[68], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 68)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[69],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[69], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 69)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[70],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[70], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 70)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[71],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[71], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 71)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[72],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[72], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 72)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[73],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[73], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 73)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[74],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[74], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 74)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[75],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[75], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 75)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[76],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[76], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 76)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[77],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[77], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 77)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[78],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[78], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 78)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[79],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[79], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 79)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[80],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[80], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 80)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[81],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[81], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 81)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[82],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[82], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 82)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[83],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[83], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 83)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[84],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[84], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 84)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[85],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[85], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 85)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[86],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[86], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 86)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[87],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[87], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 87)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[88],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[88], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 88)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[89],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[89], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 89)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[90],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[90], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 90)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[91],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[91], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 91)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[92],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[92], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 92)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[93],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[93], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 93)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[94],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[94], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 94)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[95],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[95], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 95)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[96],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[96], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 96)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[97],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[97], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 97)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[98],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[98], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 98)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[99],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[99], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 99)  + 
+(iif (isempty(([Plazo].[Plazo].[Plazo].&amp;[100],[Measures].[DENOMINADOR VALOR COLONES] )),0,([Plazo].[Plazo].[Plazo].&amp;[100], [Measures].[DENOMINADOR VALOR COLONES]) / IIF(ISEMPTY(([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES])), 1, ([Plazo].[Plazo].[All],[Measures].[DENOMINADOR VALOR COLONES]))) * 100)  
+
+
+ELSE 0
+END, 
+VISIBLE = 0;                        
+CREATE MEMBER CURRENTCUBE.[Measures].[Valor Colones]
+ AS CASE 
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "83" THEN 
+    IIF([Measures].[% Var. Venta por Colaborador real/Presup] &lt;&gt; -1, [Measures].[% Var. Venta por Colaborador real/Presup],null)
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "68" THEN 
+    IIF([Measures].[Rotacion Inventario kpi68 Col] &lt;&gt; 0, [Measures].[Rotacion Inventario kpi68 Col],null)
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "52" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "53" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "54" THEN [Measures].[Valor Ponderado]
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "55" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "56" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "57" THEN [Measures].[Valor Tasa Ponderada]
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "67" THEN 
+    IIF([Measures].[Rotacion Inventario kpi67 Col] &lt;&gt; 0, [Measures].[Rotacion Inventario kpi67 Col],null)
+/*SI NO ES UN KPI DE VALORES PONDERADOS -- DEL 52 AL 57*/
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "80" AND [Measures].[Presupuesto Colones] = 0 THEN null
+
+else iif([Measures].[Valor Normal Colones] = 0, null, [Measures].[Valor Normal Colones])
+END, 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "83" THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 1;                               
+CREATE MEMBER CURRENTCUBE.[Measures].[Valor Normal Colones]
+ AS CASE
+    WHEN [Measures].[DENOMINADOR VALOR COLONES] &lt;&gt; 0 THEN [Measures].[NUMERADOR VALOR COLONES] / [Measures].[DENOMINADOR VALOR COLONES]
+    ELSE [Measures].[NUMERADOR VALOR COLONES]
+END, 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 0;     
+CREATE MEMBER CURRENTCUBE.[Measures].[Valor Normal Colones AA]
+ AS CASE
+    WHEN [Measures].[DENOMINADOR VALOR COLONES AA] &lt;&gt; 0 THEN [Measures].[NUMERADOR VALOR COLONES AA] / [Measures].[DENOMINADOR VALOR COLONES AA]
+    ELSE [Measures].[NUMERADOR VALOR COLONES AA]
+END, 
+VISIBLE = 0;                        
+CREATE MEMBER CURRENTCUBE.[Measures].[Valor Dólares]
+ AS CASE 
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "83" THEN 
+    IIF([Measures].[% Var. Venta por Colaborador real/Presup Dol] &lt;&gt; -1, [Measures].[% Var. Venta por Colaborador real/Presup Dol],null)
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "68" THEN 
+IIF([Measures].[Rotacion Inventario kpi68 Col] &lt;&gt; 0, [Measures].[Rotacion Inventario kpi68 Col],null)
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "52" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "53" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "54" THEN [Measures].[Valor Ponderado]
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "55" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "56" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "57" THEN [Measures].[Valor Tasa Ponderada]
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "67" THEN 
+IIF([Measures].[Rotacion Inventario kpi67 Dol] &lt;&gt; 0, [Measures].[Rotacion Inventario kpi67 Dol],null)
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "68" THEN [Measures].[Rotacion Inventario kpi68 Dol]
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "80" AND [Measures].[Presupuesto Dólares] = 0 THEN null
+
+/*SI NO ES UN KPI DE VALORES PONDERADOS -- DEL 52 AL 57*/
+else iif([Measures].[Valor Normal Dólares] = 0, null, [Measures].[Valor Normal Dólares])
+END, 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "83" THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 1;                       
+CREATE MEMBER CURRENTCUBE.[Measures].[Valor Colones LY]
+ AS CASE 
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "83" THEN 
+    IIF([Measures].[% Var. Venta por Colaborador real/Presup-AA] &lt;&gt; -1, [Measures].[% Var. Venta por Colaborador real/Presup-AA],null)
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "68" THEN 
+    IIF([Measures].[Rotacion Inventario kpi68 Col-AA] &lt;&gt; 0, [Measures].[Rotacion Inventario kpi68 Col-AA],null)
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "52" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "53" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "54" THEN [Measures].[Valor Ponderado AA]
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "55" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "56" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "57" THEN [Measures].[Valor Tasa Ponderada AA]
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "67" THEN 
+    IIF([Measures].[Rotacion Inventario kpi67 Col AA] &lt;&gt; 0, [Measures].[Rotacion Inventario kpi67 Col AA],null)
+/*SI NO ES UN KPI DE VALORES PONDERADOS -- DEL 52 AL 57*/
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "80" AND [Measures].[Presupuesto Colones AA] = 0 THEN null
+
+else iif([Measures].[Valor Normal Colones AA] = 0, null, [Measures].[Valor Normal Colones AA])
+END, 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "83" THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 1;                       
+CREATE MEMBER CURRENTCUBE.[Measures].[Valor Dólares LY]
+ AS CASE 
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "83" THEN 
+    IIF([Measures].[% Var. Venta por Colaborador real/Presup Dol-AA] &lt;&gt; -1, [Measures].[% Var. Venta por Colaborador real/Presup Dol-AA],null)
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "68" THEN 
+IIF([Measures].[Rotacion Inventario kpi68 Dol-AA] &lt;&gt; 0, [Measures].[Rotacion Inventario kpi68 Dol-AA],null)
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "52" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "53" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "54" THEN [Measures].[Valor Ponderado AA]
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "55" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "56" or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "57" THEN [Measures].[Valor Tasa Ponderada AA]
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "67" THEN 
+IIF([Measures].[Rotacion Inventario kpi67 Dol-AA] &lt;&gt; 0, [Measures].[Rotacion Inventario kpi67 Dol-AA],null)
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "68" THEN [Measures].[Rotacion Inventario kpi68 Dol-AA]
+
+WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "80" AND [Measures].[Presupuesto Dólares AA] = 0 THEN null
+
+/*SI NO ES UN KPI DE VALORES PONDERADOS -- DEL 52 AL 57*/
+else iif([Measures].[Valor Normal Dólares AA] = 0, null, [Measures].[Valor Normal Dólares AA])
+END, 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] or [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "83" THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 1;                       
+CREATE MEMBER CURRENTCUBE.[Measures].[Presupuesto Colones LY]
+ AS CASE
+    WHEN [Measures].[DENOMINADOR PRESUPUESTO COLONES AA] &lt;&gt; 0 THEN [Measures].[NUMERADOR PRESUPUESTO COLONES AA] / [Measures].[DENOMINADOR PRESUPUESTO COLONES AA]
+    WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "68" THEN 
+    null /*esta kpi no tiene presupuesto*/
+
+    WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "67" THEN 
+    null /*este kpi no tiene presupuesto*/
+    ELSE 
+        CASE 
+            WHEN [KPI].[Tipo].&amp;[%] THEN 0 
+            ELSE 
+                IIF([Measures].[NUMERADOR PRESUPUESTO COLONES AA] = 0, null, [Measures].[NUMERADOR PRESUPUESTO COLONES AA])
+        END
+END, 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 1;      
+CREATE MEMBER CURRENTCUBE.[Measures].[Presupuesto Colones LY ABS]
+ AS Abs([Measures].[Presupuesto Colones LY]), 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 0  ;                       
+CREATE MEMBER CURRENTCUBE.[Measures].[Cumplimiento VS Presupuesto]
+ AS CASE
+    WHEN [Measures].[Presupuesto Colones] &lt;&gt; 0 THEN [Measures].[Valor Colones] / [Measures].[Presupuesto Colones]
+    ELSE NULL
+END, 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;                       
+CREATE MEMBER CURRENTCUBE.[Measures].[Cumplimiento VS LY]
+ AS CASE
+    WHEN [Measures].[Valor Colones LY] &lt;&gt; 0 THEN [Measures].[Valor Colones] / [Measures].[Valor Colones LY]
+    ELSE NULL
+END, 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;                       
+CREATE MEMBER CURRENTCUBE.[Measures].[Presupuesto Dólares LY]
+ AS CASE
+    WHEN [Measures].[DENOMINADOR PRESUPUESTO DOLARES AA] &lt;&gt; 0 THEN [Measures].[NUMERADOR PRESUPUESTO DOLARES AA] / [Measures].[DENOMINADOR PRESUPUESTO DOLARES AA]
+    WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "68" THEN 
+    null /*este kpi no tiene presupuesto*/
+
+    WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "67" THEN 
+    null /*este kpi no tiene presupuesto*/
+    ELSE 
+        CASE 
+            WHEN [KPI].[Tipo].&amp;[%] THEN 0 
+            ELSE IIF([Measures].[NUMERADOR PRESUPUESTO DOLARES AA] = 0, null, [Measures].[NUMERADOR PRESUPUESTO DOLARES AA])
+        END
+END, 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 1;                              
+CREATE MEMBER CURRENTCUBE.[Measures].[Presupuesto Colones]
+ AS CASE
+    WHEN [Measures].[DENOMINADOR PRESUPUESTO COLONES] &lt;&gt; 0 THEN [Measures].[NUMERADOR PRESUPUESTO COLONES] / [Measures].[DENOMINADOR PRESUPUESTO COLONES]
+    WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "68" THEN 
+    null /*esta kpi no tiene presupuesto*/
+
+    WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "67" THEN 
+    null /*este kpi no tiene presupuesto*/
+    ELSE 
+        CASE 
+            WHEN [KPI].[Tipo].&amp;[%] THEN 0 
+            ELSE 
+                IIF([Measures].[NUMERADOR PRESUPUESTO COLONES] = 0, null, [Measures].[NUMERADOR PRESUPUESTO COLONES])
+        END
+END, 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 1;     
+CREATE MEMBER CURRENTCUBE.[Measures].[Presupuesto Colones AA]
+ AS CASE
+    WHEN [Measures].[DENOMINADOR PRESUPUESTO COLONES AA] &lt;&gt; 0 THEN [Measures].[NUMERADOR PRESUPUESTO COLONES AA] / [Measures].[DENOMINADOR PRESUPUESTO COLONES AA]
+    WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "68" THEN 
+    null /*esta kpi no tiene presupuesto*/
+
+    WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "67" THEN 
+    null /*este kpi no tiene presupuesto*/
+    ELSE 
+        CASE 
+            WHEN [KPI].[Tipo].&amp;[%] THEN 0 
+            ELSE 
+                IIF([Measures].[NUMERADOR PRESUPUESTO COLONES AA] = 0, null, [Measures].[NUMERADOR PRESUPUESTO COLONES AA])
+        END
+END, 
+VISIBLE = 0;      
+CREATE MEMBER CURRENTCUBE.[Measures].[Presupuesto Colones ABS]
+ AS Abs([Measures].[Presupuesto Colones]), 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 0  ;                               
+CREATE MEMBER CURRENTCUBE.[Measures].[Presupuesto Dólares]
+ AS CASE
+    WHEN [Measures].[DENOMINADOR PRESUPUESTO DOLARES] &lt;&gt; 0 THEN [Measures].[NUMERADOR PRESUPUESTO DOLARES] / [Measures].[DENOMINADOR PRESUPUESTO DOLARES]
+    WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "68" THEN 
+    null /*este kpi no tiene presupuesto*/
+
+    WHEN [KPI].[KPI].CURRENTMEMBER.PROPERTIES("KEY") = "67" THEN 
+    null /*este kpi no tiene presupuesto*/
+    ELSE 
+        CASE 
+            WHEN [KPI].[Tipo].&amp;[%] THEN 0 
+            ELSE IIF([Measures].[NUMERADOR PRESUPUESTO DOLARES] = 0, null, [Measures].[NUMERADOR PRESUPUESTO DOLARES])
+        END
+END, 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END, 
+VISIBLE = 1;                             
+CREATE MEMBER CURRENTCUBE.[Measures].[Variación Colones]
+ AS [Measures].[Valor Colones]-[Measures].[Presupuesto Colones], 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END,
+VISIBLE = 1;                             
+CREATE MEMBER CURRENTCUBE.[Measures].[Variación Dólares]
+ AS [Measures].[Valor Dólares]-[Measures].[Presupuesto Dólares], 
+FORMAT_STRING = CASE WHEN [KPI].[Tipo].&amp;[%] THEN "#,##.00%" ELSE "#,##0.00;-#,##0.00" END,
+VISIBLE = 1; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

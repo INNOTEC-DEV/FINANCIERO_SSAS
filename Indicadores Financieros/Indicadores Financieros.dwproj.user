@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>DWH</Id>
+            <Name>DWH</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfARN2o9DykSwVKCXlb5zrQAAAAAIAAAARABXAEgAAAAQZgAAAAEAACAAAADu8qMwwNgFDfjycvy6/Bp4SqGaHORl8kZBNDOhtiF54gAAAAAOgAAAAAIAACAAAAA8Dj050exeahKIq28GFK9VIP77HERyba0r1HIZeGUsYyAAAABc/CtkwBFwAVdgFEpRSu/ACzRJF7//Y6RD0AFW/EBl2EAAAABGrk1TwGAbkOJK0U5Q1WU2ImbI440CkuypvdQWmTwJ0DP+NRX5RF1LhdHP69OFbYuFhD04ZdUzN+WeOJKZZ85e</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>DWH</Id>
+            <Name>DWH</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfARN2o9DykSwVKCXlb5zrQAAAAAIAAAARABXAEgAAAAQZgAAAAEAACAAAADyGJZEZtGpvp+IbrSXO4R4ohku9ClIXgZ7nXPrSKpsagAAAAAOgAAAAAIAACAAAADxlsxpFvec1CBzLxxeNujKN9P1TjcNv7l3xR6UMrJCTSAAAAAZxpob0SKtSJBYiROPIIUk625jirUe0PtmAQiprjKVw0AAAAD0v1L0T55guNt6yGo3Ft3k++VQq0o9/hMX9XykW9B70uaQALVtumrl4ipFCVo1rzRSTg5Vus/c5BPQTR5iJ0aB</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>.</TargetServer>
+        <TargetDatabase>Indicadores Financieros</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>
